@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comfort Learning Website</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section class="" id="header">
+      <a href="index.html"><i class="fa-solid fa-book-open"></i></a>
+
+      <div>
+        <ul class="" id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li id="lg-bag">
+            <a class="active" href="cart.html"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></a>
+          </li>
+          <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        <i id="bar" class="fa-solid fa-bars"></i>
+      </div>
+    </section>
+
+    <section class="about-header" id="page-header">
+      <h2>#talkto_us</h2>
+      <p>Leave a message,We love to hear from you!</p>
+    </section>
+
+    <section class="section-p1" id="cart">
+      <table width="100%">
+        <thead>
+          <tr>
+            <td>Remove</td>
+            <td>Image</td>
+            <td>Product</td>
+            <td>Price</td>
+            <td>Quantity</td>
+            <td>Subtotal</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href=""><i class="fa-solid fa-circle-dot"></i></a>
+            </td>
+            <td><img src="./images/digital.png" alt="" /></td>
+            <td>Digital Marketing Course</td>
+            <td>$113.50</td>
+            <td><input type="number" value="1" /></td>
+            <td>$113.50</td>
+          </tr>
+          <tr>
+            <td>
+              <a href=""><i class="fa-solid fa-circle-dot"></i></a>
+            </td>
+            <td><img src="./images/full-stack.jpg" alt="" /></td>
+            <td>Full Stack Course</td>
+            <td>$200.00</td>
+            <td><input type="number" value="1" /></td>
+            <td>$200.00</td>
+          </tr>
+          <tr>
+            <td>
+              <a href=""><i class="fa-solid fa-circle-dot"></i></a>
+            </td>
+            <td><img src="./images/database.jpg" alt="" /></td>
+            <td>Database Course</td>
+            <td>$140.50</td>
+            <td><input type="number" value="1" /></td>
+            <td>$140.50</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section-p1" id="cart-add">
+      <div class="" id="coupon">
+        <h3>Apply Coupon</h3>
+        <div>
+          <input type="text" placeholder="Enter Your Coupon" />
+          <button class="normal">Apply</button>
+        </div>
+      </div>
+
+      <div class="" id="subtotal">
+        <h3>Cart Totals</h3>
+        <table>
+          <tr>
+            <td>Cart Subtotal</td>
+            <td>$400.00</td>
+          </tr>
+          <tr>
+            <td>Shipping</td>
+            <td>Free</td>
+          </tr>
+          <tr>
+            <td><strong>Total</strong></td>
+            <td><strong>$ 400.00</strong></td>
+          </tr>
+        </table>
+        <button class="normal">Process to checkout</button>
+      </div>
+    </section>
+
+    <footer class="section-p1">
+      <div class="col">
+        <a class="logo" href="#"><i class="fa-solid fa-book-open"></i></a>
+        <h4>Contact</h4>
+        <p><strong>Address :</strong> 45/2,Dev Road,Colombo.</p>
+        <p><strong>Phone :</strong> 011-3965345</p>
+        <p><strong>Hours :</strong> 9.00 - 5.00. Mon - Sun</p>
+        <div class="follow">
+          <h4>Follow Us</h4>
+          <div class="icon">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-pinterest"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms and Conditions</a>
+        <a href="#">Contact Us</a>
+      </div>
+
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App store or Google play</p>
+        <div class="row">
+          <img src="./images/app.jpg" alt="" />
+          <img src="./images/google.png" alt="" />
+        </div>
+
+        <p>Secured Payment Gateways</p>
+        <img src="./images/pay.png" alt="" />
+      </div>
+
+      <div class="copyright">
+        <p>© 2020, Comfort Learning Website</p>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
